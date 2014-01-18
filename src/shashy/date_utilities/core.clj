@@ -269,7 +269,7 @@
         (reduce #(if (after? %1 %2) %1 %2)
                 (flatten dates))))))
 
-;; Smartstaff dates -------------------------------------------------------------
+;; Smartstaff dates -------------------------------------------------------------i
 (defn parse-smartstaff-dates
   "Given a date and a beginning and ending in HHMM format return
    date starting-at and ending-at dates"
