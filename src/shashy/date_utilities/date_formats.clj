@@ -1,6 +1,6 @@
 ;; This file of common date formats was copied from
 ;; https://github.com/clj-time/clj-time/blob/master/src/clj_time/format.clj
-(ns shashy.date-utilities.formats
+(ns shashy.date-utilities.date-formats
   (:import [org.joda.time DateTimeZone]
            [org.joda.time.format DateTimeFormat ISODateTimeFormat]))
 
